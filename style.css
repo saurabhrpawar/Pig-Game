@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 60px;
+  width: 900px;
+  height: 550px;
+  color: black;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-style {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#active-1 {
+  background: linear-gradient(
+    to left,
+    rgb(255, 246, 162),
+    rgb(255, 255, 126),
+    yellow
+  );
+}
+
+#active-2 {
+  background: linear-gradient(
+    to left,
+    yellow,
+    rgb(255, 255, 83),
+    rgb(255, 246, 162)
+  );
+}
+
+.elements-inside {
+  margin: 50px;
+}
+
+.main-body h2 {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+}
+
+.current-style {
+  width: 180px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+  background-color: white;
+  padding: 20px;
+}
+
+.btn-design {
+  margin: auto;
+  width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  font-weight: normal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-design:hover {
+  color: rgb(170, 169, 169);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-2 {
+  margin-right: 112px;
+}
+
+.main-body img {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dice {
+  margin-left: 112px;
+}
+
+.dice {
+  margin-bottom: 40px;
+}
+
+.finish {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 112px;
+}
+
+.new {
+  position: absolute;
+  top: 30px;
+}
+
+.roll {
+  position: absolute;
+  top: 350px;
+}
+
+.hold {
+  position: absolute;
+  top: 420px;
+}
+
+.score {
+  margin: 60px 0px 100px 0px;
+}
+
+.current-style {
+  margin: 160px 0px 0px 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.border {
+  border: 1px solid black;
+}
